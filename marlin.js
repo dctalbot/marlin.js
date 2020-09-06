@@ -119,7 +119,7 @@ function Marlin() {
       // pause
       this.speed = 0;
       // rotate
-      for (let i = 0; i < 17; i++) {
+      for (let i = 0; i < getRandomArbitrary(0,360); i++) {
         this.moveAngle += 0.08;
       }
       this.speed = 1;
